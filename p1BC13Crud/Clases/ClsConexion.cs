@@ -11,7 +11,7 @@ namespace p1BC13Crud.Clases
     //conexion con base de datos
     public class ClsConexion
     {
-        private string NombreServidor= "DESKTOP-NCRGUFK";
+        private string NombreServidor= "DESKTOP-444Q7B7";
         private string NombreBaseDatos = "db_alumnos";
 
         public SqlConnection conexion;
@@ -20,7 +20,7 @@ namespace p1BC13Crud.Clases
 
         public ClsConexion()
         {
-            CadenaConexion= $"Data Source={NombreServidor};User ID=sa;Password=sa;Initial Catalog={NombreBaseDatos};Integrated Security=True";
+            CadenaConexion= $"Data Source={NombreServidor};User ID=sa;Password=1234567890.;Initial Catalog={NombreBaseDatos};Integrated Security=True";
         }
 
         

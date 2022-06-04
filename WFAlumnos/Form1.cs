@@ -174,14 +174,14 @@ namespace WFAlumnos
 
         private void buttonImportar_Click(object sender, EventArgs e)
         {
-            string archivo = @"D:\Descargas\p1BC13Crud-20220531T005516Z-001\p1BC13Crud\alumnos.txt";
+            string archivo = @"C:\Users\Darwin\Documents\alunos.txt";
             ClsImportExport im = new();
             MessageBox.Show(im.importar(archivo));
         }
 
         private void buttonExportar_Click(object sender, EventArgs e)
         {
-            string archivo = @"D:\Descargas\p1BC13Crud-20220531T005516Z-001\p1BC13Crud\salida.csv";
+            string archivo = @"C:\Users\Darwin\Downloads\salida.csv";
             ClsImportExport im = new();
             MessageBox.Show(im.exportar("select * from tb_alumnos where seccion='B'", archivo));
         }
